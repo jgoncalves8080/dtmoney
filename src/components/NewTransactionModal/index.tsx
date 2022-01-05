@@ -26,7 +26,6 @@ export function NewTransactionModa({
   function handleCreateNewTransaction(event: FormEvent) {
     event.preventDefault();
 
-    console.log({ title, value, category });
   }
 
   return (
